@@ -1,0 +1,20 @@
+.top-section{
+    background-color: lightseagreen;
+}
+
+h1 {
+    color:black
+}
+
+.regular-text {
+    color: magenta;
+    font-size: 30px;
+}
+.cool-text {
+    color: royalblue;
+    font-family: cursive;
+    font-size: 30px;
+}
+#page-subtitle  {
+    color: maroon;
+}

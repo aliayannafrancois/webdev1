@@ -1,0 +1,25 @@
+h1{
+    color: rosybrown;
+}
+
+.box{
+    background: seagreen;
+    width: 200px;
+    height:200px;
+    margin:1em;
+}
+
+.absolute{
+    background: slateblue;
+    position: absolute;
+    top: 400px;
+    left: 100px
+}
+
+.fixed{
+    background: springgreen;
+    position: fixed;
+    top:50%;
+    left: 50%;
+    transform: translate(-50, -50);
+}
