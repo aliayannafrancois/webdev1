@@ -1,34 +1,52 @@
+body{
+    background-image: url(gifs/dolphin1.gif);
+}
+
+
 h1{
     text-align: center;
-    color: black;
+    color:turquoise;
+    font-size: 70px;
 }
 
 h2{
     text-align: center;
-    color: rgb(8, 208, 235);
+    color: turquoise;
     font-family: cursive;
     font-size: 50px;
 }
 
-.box{
-    background: seagreen;
+
+img{
     width: 200px;
     height:200px;
     margin:1em;
+   
 }
 
-.absolute{
-    background: slateblue;
+.nicer-beach{
     position: absolute;
-    top: 20%;
+    top:50%;
     left: 50%;
-}
-
-.fixed{
-    background: slateblue;
-    position: fixed;
-    top:20%;
-    right: 50%;
     
 }
 
+.nicest-beach{
+    width: 200px;
+    height:200px;
+    margin:1em;
+    
+}
+
+
+.palm{
+    position: fixed;
+    top:50%;
+    left: 50%;
+    transform: translate(-50, -50);
+}
+
+.glasses{
+     position: absolute;
+     right: 100px;
+}
