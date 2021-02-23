@@ -1,0 +1,21 @@
+* {margin: 0; padding: 0; box-sizing: border-box;}
+
+.dialog-box{
+    width:50vmin;
+    height:20vmin;
+    border:3px solid crimson;
+    left:50vw;
+    top:50vh;
+    position: relative;background: lightgreen;
+}
+
+.close-button{
+    position: absolute;
+    top:0;
+    right:0;
+    padding: .25em;
+    background: lightskyblue;
+    color: white;
+    
+
+}
