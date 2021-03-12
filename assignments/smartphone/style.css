@@ -1,133 +1,57 @@
 
-.container {
+.phone-container{
     background: rgb(252, 156, 209);
-    height: 80vh;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
+    max-width: max-content;
+    margin: 0 auto;
+    padding: 1em;
+    border-radius: 10px;
   }
   
-  .child {
+  .row {
     background: rgb(138, 205, 226);
+    max-width: max-content;
     padding: .25em;
-    margin: 7em;
     display: flex;
     justify-content: center;
+    margin: 1em 0;
+    border-radius: 10px;
   }
 
-    .box1{
+  .box {
     width: 12vmin;
     height: 12vmin;
-    background: lightgreen;
     margin: .25em;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: url(//picsum.photos/400);
     background-size: cover;
+
+  }
+  .box:hover {
+    background: black;
   }
 
-  .box2{
-    width: 12vmin;
-    height: 12vmin;
-    background: pink;
-    margin: .25em;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: url(//picsum.photos/400);
-    background-size: cover;
-  }
+  .box1{background: lightgreen;}
+  .box2{background: rgb(117, 109, 107)}
+  .box3{background: rgb(223, 60,24)}
+  .box4{background: orange;}
+  .box5{background: purple;}
+  .box6{background: rgb(0, 102, 121);}
+  .box7{background: rgb(255, 137, 255);}
+  .box8{background: rgb(229, 250, 40);}
+  .box9{background: rgb(62, 185, 109);}
+  .box10{ background: rgb(85, 47, 36);}
+  .box11{ background: rgb(224, 109, 77);}
+  .box12{ background: rgb(0, 224, 101);}
+  .box13{ background: rgb(128, 9, 34);}
+  .box14{ background: rgb(255, 255, 255);}
+  .box15{ background: rgb(227, 243, 137);}
+  .box16{ background: rgb(67, 97, 233);}
+  .box17{ background: rgb(0, 238, 255);}
+  .box18{ background: rgb(220, 221, 166);}
+  .box19{ background: rgb(255, 118, 118);}
+  .box20{ background: rgb(116, 102, 98);}
 
-  .box3{
-    width: 12vmin;
-    height: 12vmin;
-    background: rgb(60, 140, 245);
-    margin: .25em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: url(//picsum.photos/400);
-    background-size: cover;
-  }
-
-  .box4{
-    width: 12vmin;
-    height: 12vmin;
-    background: orange;
-    margin: .25em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: url(//picsum.photos/400);
-    background-size: cover;
-  }
-  .box5{
-    width: 12vmin;
-    height: 12vmin;
-    background: purple;
-    margin: .25em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: url(//picsum.photos/400);
-    background-size: cover;
-  }
-
-  .box6{
-    width: 12vmin;
-    height: 12vmin;
-    background: rgb(0, 102, 128);
-    margin: .25em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: url(//picsum.photos/400);
-    background-size: cover;
-  }
-
-  .box7{
-    width: 12vmin;
-    height: 12vmin;
-    background: rgb(255, 137, 255);
-    margin: .25em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: url(//picsum.photos/400);
-    background-size: cover;
-  }
-  .box8{
-    width: 12vmin;
-    height: 12vmin;
-    background: rgb(229, 250, 40);
-    margin: .25em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: url(//picsum.photos/400);
-    background-size: cover;
-  }
-  .box9{
-    width: 12vmin;
-    height: 12vmin;
-    background: rgb(62, 185, 109);
-    margin: .25em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: url(//picsum.photos/400);
-    background-size: cover;
-  }
-  .box10{
-    width: 12vmin;
-    height: 12vmin;
-    background: rgb(85, 47, 36);
-    margin: .25em;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: url(//picsum.photos/400);
-    background-size: cover;
-  }
