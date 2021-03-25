@@ -1,0 +1,41 @@
+.box {
+  width: 10vh;
+  height: 10vh;
+  background: cornflowerblue;
+  
+  position: absolute;
+  top: 0;
+  left: 0;
+  
+  animation-name: do-the-thing;
+  animation-duration: 2s;
+}
+
+
+@keyframes do-the-thing {
+  
+  0% {
+    top: 0;
+    left: 0;
+  }
+  
+  25% {
+    top: 0;
+    left: 90vw;
+  }
+  
+  50% {
+    top: 90vh;
+    left: 90vw;
+  }
+  
+  75% {
+    top: 90vh;
+    left: 0;
+  }
+  
+  100% {
+    top: 0;
+    left: 0;
+  }
+}
