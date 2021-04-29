@@ -5,7 +5,7 @@
   }
   
   img {
-    width: 100%;
+    width: 50%;
     box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.2);
   }
   
@@ -18,11 +18,10 @@
     display: grid;
     height: 100vh;
     
-    /* Explicit Grid definition */
     grid-template-columns: 100vw;
     grid-template-rows: 70px 1fr 40px;
     
-    /* Implicit Grid Behavior */
+   
     grid-auto-flow: column;
   }
   
